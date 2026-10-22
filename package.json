@@ -1,7 +1,12 @@
 {
   "name": "hubspot-flow-dumper",
   "version": "1.2.0",
-  "description": "Export HubSpot workflow definitions (hybrid JSON, summary, custom code) when the UI is too big to screenshot.",
+  "description": "Export HubSpot workflows (hybrid JSON, Markdown summary, custom code). Unofficial Chrome/Edge extension for ops and documentation.",
+  "homepage": "https://github.com/ottocanabrava/hubspot-flow-dumper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottocanabrava/hubspot-flow-dumper.git"
+  },
   "license": "MIT",
   "private": false,
   "scripts": {
