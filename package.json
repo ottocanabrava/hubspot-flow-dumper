@@ -1,0 +1,14 @@
+{
+  "name": "hubspot-flow-dumper",
+  "version": "1.2.0",
+  "description": "Export HubSpot workflow definitions (hybrid JSON, summary, custom code) when the UI is too big to screenshot.",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "har": "node cli/process-har.js",
+    "backup": "node cli/backup-all-flows.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

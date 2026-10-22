@@ -1,0 +1,9 @@
+# Dumps (podem conter webhooks, secrets names, dados do portal)
+output/
+*.har
+
+node_modules/
+.DS_Store
+Thumbs.db
+.env
+.env.*

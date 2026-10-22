@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "HubSpot Flow Dumper",
+  "version": "1.2.0",
+  "description": "One-click export of the open HubSpot workflow (branches, properties, custom code).",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "host_permissions": ["https://app.hubspot.com/*", "https://api.hubapi.com/*"],
+  "action": {
+    "default_title": "Dump HubSpot workflow",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.hubspot.com/*/platform/flow/*",
+        "https://app.hubspot.com/workflows/*/platform/flow/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
