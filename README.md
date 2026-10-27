@@ -1,8 +1,10 @@
 # HubSpot Flow Dumper
 
+[🇧🇷 Português](README.md) | [🇺🇸 English](README.en.md)
+
 Export **HubSpot workflow** definitions when the canvas is too big to screenshot: hybrid JSON, a Markdown summary, and custom code actions (Node.js / Python).
 
-> **Unofficial tool.** Uses the same browser-session APIs the HubSpot UI calls (`hybrid`, optional v4). Not affiliated with or endorsed by HubSpot. Use responsibly and review HubSpot’s terms for your account.
+> **Unofficial tool.** Uses the same browser-session APIs the HubSpot UI calls (`hybrid`, optional v4). Not affiliated with or endorsed by HubSpot. Use responsibly and review HubSpot’s terms for safe automation and data handling.
 
 ---
 
@@ -14,7 +16,7 @@ No dia a dia de **ops / produto / revops**, workflows grandes viram um problema 
 - Print e scroll no editor não escalam quando há dezenas de ramos, delays e `CUSTOM_CODE`.
 - Para entender uma cadeia (ex.: ticket mãe → webhook → N8N), você precisa do **JSON + código** num lugar que o time (ou um agente de IA) consiga ler.
 
-Este projeto nasceu enquanto mapeávamos fluxos de **movimentação / TJ** no HubSpot: documentação viva, dumps em `summary.md`, e extensão de um clique. Foi extraído para um repositório próprio para **clonar em outro PC** e compartilhar aberto.
+Este projeto nasceu enquanto mapeávamos fluxos de **movimentação / TJ** no HubSpot: documentação viva, dumps em `summary.md`, e extensão de um clique. Foi extraído para um repositório público para facilitar o uso e compartilhamento.
 
 ---
 
@@ -122,7 +124,7 @@ hubspot-flow-dumper/
 
 ## English (short)
 
-HubSpot’s native backup doesn’t give you reviewable workflow definitions. **Use the browser extension** for the fullest dump (hybrid JSON, Markdown summary, custom code when the APIs expose it). Console is a no-install fallback; HAR and API backup are optional batch/inventory tools — not full equivalents. MIT licensed. Unofficial.
+HubSpot’s native backup doesn’t give you reviewable workflow definitions. **Use the browser extension** for the fullest dump (hybrid JSON, Markdown summary, custom code when the APIs expose it). For a more lightweight fallback, use the console script or a HAR capture. The repo also includes optional backup utilities for bulk inventory work.
 
 ---
 
