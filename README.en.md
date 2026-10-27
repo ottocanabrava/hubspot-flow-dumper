@@ -1,6 +1,11 @@
 # HubSpot Flow Dumper
 
-[🇧🇷 Português](README.md) | [🇺🇸 English](README.en.md)
+<br>
+<div align="left">
+  <a href="README.md"><img alt="Português" src="https://img.shields.io/badge/Idioma-PT--BR-0A7EA8?style=flat-square&logo=github" /></a>
+  <a href="README.en.md"><img alt="English" src="https://img.shields.io/badge/Language-EN-0D9488?style=flat-square&logo=github" /></a>
+</div>
+<br>
 
 Export **HubSpot workflow** definitions when the canvas is too big to screenshot: hybrid JSON, a Markdown summary, and custom code actions (Node.js / Python).
 
